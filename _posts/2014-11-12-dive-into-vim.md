@@ -1,12 +1,10 @@
----
+-
 layout: post
-title: "Dive Into Vim"
-description: ""
-category: 
-tags: []
+category : lessons
+tagline: "Supporting tagline"
+tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
-
 ### VIM命令行模式
 
 #### 1、光标的移动
