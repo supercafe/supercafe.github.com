@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-{% include JB/setup %}
+
 
 ### VIM命令行模式
 
