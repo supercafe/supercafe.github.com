@@ -3,9 +3,9 @@ comments :
   disqus :
     short_name : supercafe
 
-markdown: redcarpet
-highlighter: null
-permalink: /:title
+markdown: kramdown
+highlighter: pygments
+permalink: date
 
 url:
 baseurl:
