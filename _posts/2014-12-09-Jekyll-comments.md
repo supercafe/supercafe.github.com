@@ -1,6 +1,7 @@
 ---
 layout: post
 tags : [Jekyll]
+category: 技术
 title: Jekyll中无法使用comments功能
 ---
 
@@ -8,10 +9,9 @@ title: Jekyll中无法使用comments功能
 
 最近两天都在纠结这个评论功能。按照官方文档介绍，要添加评论功能，首先得需要一个第三方的评论系统，可以是`diqus`，`duoshuo`等。然后在`_config.yml`中进行一些配置：
 
-
 	comments :
- 	 provider : disqus
-  	disqus :
+	provider : disqus
+ disqus :
   	  short_name : jekyllbootstrap
  	 livefyre :
   	  site_id : 123
