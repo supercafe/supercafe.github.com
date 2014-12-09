@@ -10,6 +10,10 @@ tags_path : /tags.html
 url:
 baseurl:
 
+BASE_PATH : false
+
+ASSET_PATH : false
+
 JB :
   version : 0.3.0
 
@@ -18,19 +22,29 @@ sass:
   sass_dir: public/css
   style: :compressed
 
+     
 comments :
-    provider : duoshuo
-    duoshuo :
-      short_name : simpleyyt
-    disqus :
-      short_name : simpleyyt
-    livefyre :
-      site_id : 123
-    intensedebate :
-      account : 123abc
-    facebook :
-      appid : 123
-      num_posts: 5
-      width: 580
-      colorscheme: light
+  provider : disqus
+  disqus :
+    short_name : jekyllbootstrap
+  livefyre :
+    site_id : 123
+  intensedebate :
+    account : 123abc
+  facebook :
+    appid : 123
+    num_posts: 5
+    width: 580
+    colorscheme: light
     
+analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-123-12'
+    getclicky :
+      site_id : 
+    mixpanel :
+        token : '_MIXPANEL_TOKEN_'
+    piwik :
+        baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
+        idsite : '1'                   # the id of the site on Piwik
