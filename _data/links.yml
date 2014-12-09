@@ -1,5 +1,10 @@
 - url: /
-  title: Latest Blogs
+  title: blogs
+
+- url: /tags
+  title: Tags
 
 - url: /about
   title: About Me
+
+

@@ -10,17 +10,17 @@
 				{% assign categories_list = nil %}
 				</div>
 			</div>
+			<div class="journal-tags">
+				{% assign tags_list = page.tags %}
+				{% include themes/Snail/tags_list %}
+			</div>
 			<div class="journal-body">
 				<h1 class="journal-title">{{ page.title }}<span class="author">{% if page.tagline %}{{page.tagline}}{% endif %}</span>
 				</h1>
 				<span class="the-article">
 				{{ content }}
 				</span>
-				<div class="journal-date">Published {{ page.date | date_to_long_string }}</div>
-				<div class="journal-tags">
-				{% assign tags_list = page.tags %}
-				{% include themes/Snail/tags_list %}
-				</div>
+				<div class="journal-date">Published {{ page.date | date_to_long_string }}</div>				
 			</div>
 		</div>
 		<div class="clearboth"></div>
