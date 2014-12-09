@@ -2,6 +2,11 @@ markdown: kramdown
 highlighter: pygments
 permalink: date
 
+title : Erica's Blog-Life&Technology
+
+categories_path : /categories.html
+tags_path : /tags.html
+
 url:
 baseurl:
 
