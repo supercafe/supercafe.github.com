@@ -1,9 +1,13 @@
 ---
 layout: default
 ---
+{% include JB/setup %} 
+{% include JB/analytics %}
 
 <article class="single row gutters">
   <h2>{{ page.title }}</h2>
 
   {{ content }}
 </article>
+
+{% include JB/comments %}

@@ -1,8 +1,3 @@
-comments :
-  provider : disqus
-  disqus :
-    short_name : supercafe
-
 markdown: kramdown
 highlighter: pygments
 permalink: date
@@ -10,9 +5,27 @@ permalink: date
 url:
 baseurl:
 
-redcarpet:
-  extensions: [strikethrough, tables]
+JB :
+  version : 0.3.0
+
 
 sass:
   sass_dir: public/css
   style: :compressed
+
+comments :
+    provider : duoshuo
+    duoshuo :
+      short_name : simpleyyt
+    disqus :
+      short_name : simpleyyt
+    livefyre :
+      site_id : 123
+    intensedebate :
+      account : 123abc
+    facebook :
+      appid : 123
+      num_posts: 5
+      width: 580
+      colorscheme: light
+    
