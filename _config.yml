@@ -2,7 +2,7 @@ markdown: kramdown
 highlighter: pygments
 permalink: date
 
-title : Erica's Blog-Life&Technology
+title : Erica's Blog-生活、学习、思考
 
 categories_path : /categories.html
 tags_path : /tags.html
