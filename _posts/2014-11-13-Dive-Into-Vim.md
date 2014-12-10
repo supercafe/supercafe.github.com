@@ -1,5 +1,7 @@
 ---
 layout: post
+tags: [Vim]
+category: 技术
 ---
 
 
